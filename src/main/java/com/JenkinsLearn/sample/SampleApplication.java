@@ -18,7 +18,7 @@ public class SampleApplication {
 	}
 	public static void main(String[] args) {
 		logger.info("Application Executed...");
-		logger.info("Application Executed Second Log...");
+		logger.info("Application Executed Second Log ...");
 		SpringApplication.run(SampleApplication.class, args);
 		logger.info("Application Ended...");
 	}
