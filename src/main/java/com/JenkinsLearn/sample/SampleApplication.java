@@ -10,7 +10,7 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class SampleApplication {
 
-//	static Logger logger =LoggerFactory.getLogger(SpringApplication.class);
+	static Logger logger =LoggerFactory.getLogger(SpringApplication.class);
 	
 	@PostConstruct
 	public void init() {
